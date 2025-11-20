@@ -209,3 +209,20 @@ __marimo__/
 
 mcp_agent.config.yaml
 mcp_agent.secrets.yaml
+
+# DeepCode / Paper Implementation specific
+logs/
+deepcode_lab/
+*.jsonl
+
+# Diagnostic/Test scripts
+debug_*.py
+test_*.py
+diagnose_*.py
+verify_*.py
+check_*.py
+
+# Temporary files
+upload_*.pdf
+*.tmp
+.DS_Store
